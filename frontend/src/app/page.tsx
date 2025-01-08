@@ -200,6 +200,42 @@ export default function Home() {
           border-radius: 4px;
         }
       `}</style>
+         <footer className="attribution">
+      <p>
+        Song features data provided by{' '}
+        <a 
+          href="https://getsongbpm.com" 
+          target="_blank" 
+          rel="noopener noreferrer"
+        >
+          GetSongBPM
+        </a>
+      </p>
+    </footer>
+
+    <style jsx>{`
+      /* ... existing styles ... */
+
+      .attribution {
+        margin-top: 40px;
+        padding: 20px;
+        text-align: center;
+        font-size: 0.9rem;
+        color: #666;
+        border-top: 1px solid #eee;
+      }
+
+      .attribution a {
+        color: #1DB954;
+        text-decoration: none;
+        transition: color 0.2s ease;
+      }
+
+      .attribution a:hover {
+        color: #169c46;
+        text-decoration: underline;
+      }
+    `}</style>
     </div>
       
   );
